@@ -9,12 +9,11 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Süleyman Türkoğlu </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            from <span className="purple"> Istanbul, Türkiye.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently employed as a software developer at Armada Yazilim.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I have completed Mechatronics Engineering at Marmara Uni.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
