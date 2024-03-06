@@ -9,6 +9,7 @@ function Type() {
           "Software Developer",
           "Freelancer",
           "Custom CAD/CAM Developer",
+          "SolidWorks Addin Developer",
           "Open Source Contributor",
         ],
         autoStart: true,
