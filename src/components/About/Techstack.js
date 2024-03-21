@@ -10,7 +10,6 @@ import {
   DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
   SiFirebase,
   SiAngular,
   SiCsharp,
