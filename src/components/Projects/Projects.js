@@ -2,13 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import erp from "../../Assets/Projects/erğ.jpg";
+import erp from "../../Assets/Projects/erp.jpg";
 import cutting from "../../Assets/Projects/cutting.png";
 import dental from "../../Assets/Projects/dental.webp";
 import armadaworks from "../../Assets/Projects/armadaworks.png";
 import configurator from "../../Assets/Projects/configurator.png";
 import dome from "../../Assets/Projects/dome.jpg";
-import dome from "../../Assets/Projects/metalspinning.png";
+import metalspinning from "../../Assets/Projects/metalspinning.png";
 
 function Projects() {
   return (

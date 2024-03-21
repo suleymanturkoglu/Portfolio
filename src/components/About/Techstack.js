@@ -3,7 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
-  DiAngular,
   DiNodejs,
   DiMongodb,
   DiPython,
@@ -13,8 +12,8 @@ import {
 import {
   SiRedis,
   SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
+  SiAngular,
+  SiCsharp,
   SiPostgresql,
 } from "react-icons/si";
 import { TbBrandThreejs } from "react-icons/tb";
@@ -26,7 +25,7 @@ function Techstack() {
         <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiChasrp />
+        <SiCsharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -35,7 +34,7 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiAngular />
+        <SiAngular />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
