@@ -30,10 +30,10 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          {/* <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Süleyman Türkoğlu</footer>
+          </p> */}
+          {/* <footer className="blockquote-footer">Süleyman Türkoğlu</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

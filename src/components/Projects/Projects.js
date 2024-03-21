@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import erp from "../../Assets/Projects/erp.jpg";
+import cutting from "../../Assets/Projects/cutting.png";
+import dental from "../../Assets/Projects/dental.webp";
+import armadaworks from "../../Assets/Projects/armadaworks.png";
+import configurator from "../../Assets/Projects/configurator.png";
+import dome from "../../Assets/Projects/dome.jpg";
+import metalspinning from "../../Assets/Projects/metalspinning.png";
 
 function Projects() {
   return (
@@ -23,68 +24,69 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={armadaworks}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/suleymanturkoglu"
-              demoLink="https://chatify-49.web.app/"
+              title="ArmadaWorks"
+              description="ArmadaWorks is an addin for SolidWorks. It aims to automate redundant, time-consuming tasks that users might encounter in SolidWorks. It offers many features such as automatic sheet metal unfolding, bill of materials, nesting, and more. C#, Solidworks API were used in the project"
+              demoLink="https://armadaworks.net/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={dome}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Dome"
+              description="The Dome project is a SolidWorks addin designed to construct living spaces in dome shapes. It calculates the placement of components based on entered diameter and frequency values, enabling the realization of the design. C#, Solidworks API were used in the project"
+              demoLink="https://capedome.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={dental}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Dental CAD/CAM"
+              description="A custom CAD/CAM software has been developed for the dental industry. Many features have been developed to meet the specific needs of the customers, such as tooth segmentation, mesh boolean operations... c++, QT, Opencascade, VTK, Moduleworks were used in the project"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={erp}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="ERP Integration"
+              description="In the project I have developed, the CAD data created by designers is automatically transferred to ERP systems (such as SAP, IFS) via SOLIDWORKS, PDM API, in many customers. This includes opening stock cards and transferring prescriptions and images. .Net C#, SOLIDWORKS API, PDM API, web services were used in the project"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={configurator}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Configurator"
+              description="The Configurator project involves generating a product in a CAD environment based on the user's selections and displaying it in a 3D web format. On the web page, the product is dynamically created based on user selections. The parts list needed to assemble this product is assembled in the assembly environment using the SOLIDWORKS API, according to predefined rules. Subsequently, it can be displayed in 3D on the web. .Net Web API, Angular, Threejs, SOLIDWORKS API were used in the project"
+              demoLink="https://gearboxselection.pgr.com.tr/reducer-selection?lang=tr"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cutting}
+              isBlog={false}
+              title="Cutting Module"
+              description="In the project, an aluminum composite cutting program was developed. MFC/QT/C++ were used in the project. The program enables reading of DXF/DWG files, which are then rendered using OpenGL."
+              demoLink="https://solidcnc.net/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={metalspinning}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Metal Spinning"
+              description="The traditional chipless manufacturing method of sheet metal spinning has been digitized. A CAD/CAM system has been developed to generate tool paths for CNC specifically designed for sheet metal spinning."
+              demoLink="https://solidcnc.net/"
             />
           </Col>
         </Row>
